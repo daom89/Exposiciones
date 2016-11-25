@@ -1,0 +1,18 @@
+List-Markers
+list-style
+list-style-image
+list-style-position
+list-style-type 
+
+
+marker-offset:
+
+Esta propiedad fue propuesto en CSS 2, pero abandonado en
+CSS 2 (Revisión 1) y nunca puestos en práctica.
+Se considera como no estándar.
+
+HIPERLINK..
+target
+target-name
+target-new
+target-position

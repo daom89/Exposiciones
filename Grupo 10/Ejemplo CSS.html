@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css">
+
+.example1 a {font-family:Georgia,serif; font-size:large}
+.example1 a:link {color:forestgreen;}
+.example1 a:visited {color:seagreen;}
+.example1 a:hover {text-decoration:none;color:yellowgreen;font-weight:bold;}
+.example1 a:active {color:red;text-decoration: none}
+
+a {font-family:Georgia, "Times New Roman", Times, serif;font-size:large;cursor: auto}
+a:link {color:blue;}
+a:visited {color: #660066;}
+a:hover {text-decoration: none; color: #ff9900; font-weight:bold;}
+a:active {color: #ff0000;text-decoration: none}
+            
+	h1{
+ font-family: "Kristen ITC";
+   font-size: 50px;
+   color: red;
+}
+p{
+	font-family: "Kristen ITC";
+}
+h2,h3{
+	font-family: "Kristen ITC";
+	color: pink;
+  page-break-inside: always;
+}
+h3{
+	font-size: 30px;
+}
+
+#main-container{
+    width:600px;
+    margin:0 auto;
+    text-align:center;
+}
+
+.cuadrado{
+    width:150px;
+    height:150px;
+    background-color:#2980b9;
+    margin: 20px;
+    color:#fff;
+    line-height:150px;
+}
+
+.cuadrado:hover{
+    background-color:#c0392b;
+    width:200px;
+    box-shadow:0px 0px 6px #000;
+}
+
+#transition{
+  -webkit-transition: background-color 2s ease-out, width 1s ease, box-shadow 1s linear;
+  -moz-transition:background-color 2s ease-out, width 1s ease, box-shadow 1s linear;
+  -o-transition: background-color 2s ease-out, width 1s ease, box-shadow 1s linear;
+  -ms-transition:background-color 2s ease-out, width 1s ease, box-shadow 1s linear;
+  transition: background-color 2s ease-out, width 1s ease, box-shadow 1s linear;
+}
+#transicion{
+  margin:30px auto;
+    width:200px;
+    height:200px;
+    background-color:#16a085;
+    color:#16a085;
+    line-height:300px;
+    font-size:25px;
+    text-align:center;
+}
+
+#transicion:hover{
+    width:400px;
+    height:400px;
+    border-radius:60%;
+    background-color:#2c3e50;
+    cursor:pointer;
+    padding:30px;
+    box-shadow:0px 2px 20px #000;
+    color:#fff;
+    
+    -webkit-transition: width 1s ease,height 1s ease,background-color 2s ease-out, border-radius 2s ease-in-out, padding 1s ease 2s, box-shadow 1s ease 2s, color 3s linear;
+    -moz-transition: width 1s ease,height 1s ease,background-color 2s ease-out, border-radius 2s ease-in-out, padding 1s ease 2s, box-shadow 1s ease 2s, color 3s linear;
+    -o-transition: width 1s ease,height 1s ease,background-color 2s ease-out, border-radius 2s ease-in-out, padding 1s ease 2s, box-shadow 1s ease 2s, color 3s linear;
+    -ms-transition: width 1s ease,height 1s ease,background-color 2s ease-out, border-radius 2s ease-in-out, padding 1s ease 2s, box-shadow 1s ease 2s, color 3s linear;    
+    transition: width 1s ease,height 1s ease,background-color 2s ease-out, border-radius 2s ease-in-out, padding 1s ease 2s, box-shadow 1s ease 2s, color 3s linear;
+
+}
+/* footer {
+  display: none;
+}
+*/
+
+body {
+  background-image: none;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  background: red;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.box:hover {
+  background-color: green;
+  cursor: pointer;
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+
+.card-container {
+  cursor: pointer;
+  height: 300px;
+  perspective: 600;
+  position: relative;
+  width: 300px;
+
+}
+.card {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 100%;
+  text-align: center;
+}
+.card:hover {
+  transform: rotateY(180deg);
+}
+.card .side {
+  backface-visibility: hidden;
+  border-radius: 6px;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+
+}
+.card .back {
+  background: #eaeaed;
+  color: #0087cc;
+  line-height: 150px;
+  text-align: center;
+  transform: rotateY(180deg);
+  font-family: "Chiller";
+  font-size: 30px;
+
+}
+
+
+</style>
+
+<head>
+<body bgcolor="#CEF6EC">
+<title>Ejemplo</title>
+<h1 align="center" > THE VAMPIRE DIARIES </h1>
+<p align="center"> The Vampire Diaries se centra en la historia del triángulo amoroso entre Elena Gilbert y los hermanos Stefan y Damon Salvatore, vampiros para más señas, y en la vida en Mystic Falls, Virginia, un pequeño pueblo cuyo pasado esconde a la malvada Katherine Pierce... Romance, fantasía, un toque de comedia y mucho hormona sobrenatural para una serie que se ha ido convirtiendo en uno de los buques insignias de The CW. </p>
+<br>
+<h2> Elenco </h2>
+<br>
+<ol>
+	<li><ul> <b>Nina Dobrev</b> como Elena Gilbert/ Katherine Pierce</ul></li>
+	<li><ul> <b>Paul Wesley</b> como Stefan Salvatore  </ul></li>
+	<li><ul> <b>Ian Somerhalder</b> como Damon Salvatore </ul></li>
+	<li><ul> <b>Steven R. McQueen</b> como Jeremy Gilbert </ul></li>
+	<li><ul> <b>Candice Accola</b> como Caroline Forbes </ul></li>
+    <li><ul> <b>Zach Roerig</b> como Matt Donovan </ul></li>
+    <li><ul> <b>Kat Graham</b> como Bonnie Bennett </ul></li>
+    <li><ul> <b>Sara Canning</b> como Jenna Sommers </ul></li>
+    <li><ul> <b>Matt Davis</b> como Alaric Saltzman </ul></li>
+    <li><ul> <b>Michael Trevino</b> como Tyler Lockwood </ul></li>
+    <li><ul> <b>Kayla Ewell</b> como Vicki Donovan </ul></li>
+</ol>
+<br>
+<img src="https://66.media.tumblr.com/2c93a94dc8556e964792b93a6e9a33b2/tumblr_ob24binzwk1tu1fgto1_500.gif" width="1330" id="imagen">
+<br>
+<h3> Produccion </h3>
+<p align="center"> La serie fue producida por Outerbanks Entertainment con <b>Kevin Williamson</b> y <b>Julie Plec</b> como productores y escritores. Leslie Morgenstein y Bob Levy también participaron como productores ejecutivos. El piloto fue dirigido por Marcos Siega, que trabajó anteriormente en series como Veronica Mars, True Blood y Dexter.
+
+El rodaje del piloto fue previsto para ser grabado entre el 23 de marzo y el 8 de abril en Vancouver, pero finalmente el rodaje comenzó el 30 de marzo y terminó el 18 de abril a primera hora de la mañana. </p>
+<br>
+<br>
+
+<H3 align="center">Transitions</H3>
+<div id="main-container">
+    
+      <div id="no-transition" class="cuadrado">
+        No-Transition
+      </div>
+
+
+      <div id="transition" class="cuadrado">
+        Transition
+      </div>
+    
+    </div>
+    <div id="transicion">
+          ADSI ===> Sena 
+    </div>
+
+<div class="box"></div>
+
+ 
+
+<br>
+<br><br>
+<div class="card-container">
+  <div class="card">
+    <div class="side"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHwZ7g-NbgLtiankCNAPzz9ClqM-17Un1z9cku5QpjCSdEDtmV" alt="5 Seconds Of Summer"></div>
+    <div class="side back">5 Seconds Of Summer</div>
+  </div>
+</div>
+<br>
+<br>
+    <div class="example1">Here goes an example <a href="http://www.html.am/html-codes/links/">hyperlink</a>.</div>
+
+    <a href="/css/css_hyperlinks.cfm" target="_blank">CSS Hyperlinks</a>
+    <br>
+    <br>
+    <br>
+  
+    <footer> <p> posted by: Sara C.A. </p> @Copyright <img src="http://www.academiaeditorial.com/web/wp-content/uploads/2011/04/c-Copyright1.jpg" width="20" height="15"> <a href="https://plus.google.com/u/0/109872869632576932513">secamacho5@misena.edu.com</a></footer>
+	
+
+</body>
+</head>
+</html>

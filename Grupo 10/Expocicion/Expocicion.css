@@ -1,0 +1,31 @@
+h2 a {
+	color: red;
+}
+.a{
+	list-style:decimal inside url("");
+}
+
+.b {
+    list-style-image: url('poco.jpg');
+    list-style-position: outside;
+}
+.c{
+	list-style-type: circle;
+}
+.d {
+	list-style-type: square;
+}
+.e {
+	list-style-type: upper-roman;
+}
+.f {
+	list-style-type: lower-alpha;
+}
+.g {
+	list-style-type: inherit;
+}
+.off{
+	marker-offset:52px;
+}
+
+
