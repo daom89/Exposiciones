@@ -1,0 +1,28 @@
+
+/*line-height intelineado */
+ p{
+ 
+	line-height: 100px;
+
+
+}
+img.baseline{
+	vertical-align: baseline;
+}
+
+
+img.top {
+    vertical-align: text-top;
+}
+
+img.bottom {
+    vertical-align: text-bottom;
+}
+
+img.middle {
+    vertical-align:middle;
+}
+
+img.porcentaje {
+    vertical-align: super;
+}
