@@ -1,0 +1,74 @@
+p:last-child{
+	font-family: arial;
+	background: #00f000;
+	font-size: 30px;
+}
+p{
+    color:#000000;
+}
+
+:not(p){
+     
+     color: blue;
+
+
+}
+p:nth-child(2){
+     font-size: 30px;
+     background: red;
+
+}
+p:nth-last-child(2){
+     font-size: 30px;
+     background: red;
+
+}
+
+p:only-of-type {
+     background: #00FF00;
+     font-size: 30px;
+}
+input:optional {
+    background-color: yellow;
+}
+input:out-of-range {
+    background : red;
+    
+}
+input:read-only { 
+    background-color: aqua;
+}
+input:read-write {
+
+     background-color: yellow;
+}
+:root {
+    background: #ffffff;
+}
+h1:hover {
+    background-color: aqua;
+}
+
+img{
+    margin-left: 450px;
+    width: 300px;
+    height: 200px;
+    margin-bottom:20px;
+
+}
+#n2{
+ margin-bottom:100px;
+  margin-left: 10px;
+
+}
+:target {
+    text-transform: uppercase;
+    border: 10px solid #D4D4D4;
+    background-color: aqua;
+}
+input:valid { 
+    background-color: aqua;
+}
+:visited{  
+color: aqua;
+}

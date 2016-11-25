@@ -1,0 +1,65 @@
+    body 
+     {
+    background-image: url("img/SaxSoprano.gif");
+
+    background-size: 100% 100%;
+
+    background-origin:content-box; 
+    background-position: center right; /* centrado verticalmente, a la derecha verticamente*/
+    background-repeat: no-repeat;
+    background-attachment: fixed; /*evita el scroll*//*Scroll hace que el fondo se desplace junto con el elemento de la pag.*/
+      }
+
+/*- Edita el selector h1 para que quede de la siguiente manera*/
+
+    h1 
+     {
+     color: lightpink ;
+     font-size:20pt;
+     padding: 10px 10px 10px 10px;
+     background-color: transparent white; /*Color , traspatent*/
+     border-style: groove double;
+     border-color: violet;
+     border-width: 10px;
+     }
+
+
+    h2 
+     {
+     color: white;
+     font-size:10pt;
+     padding: 5px 5px 5px 5px;
+     background-color: transparent white; /*Color , traspatent*/
+     border-style: groove double;
+     border-color: aqua;
+     border-width: 10px;
+     }
+/*-*/
+
+/*#pp{
+	background-color: blue;
+}*/
+         p {
+         color: gray;
+           }
+              small{
+                	color: lightpink;
+                   }
+
+
+      h3
+      {
+      color: white;
+      font-size:10pt;
+      padding: 5px 5px 5px 5px;
+      background-color: transparent white; /*Color , traspatent*/
+      border-style: groove double;
+      border-color: lightgreen;
+      border-width: 10px;
+       }
+
+
+      img{
+     	background-size: 90px 90px;
+         }
+

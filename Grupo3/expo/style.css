@@ -1,0 +1,60 @@
+#Uno {
+  animation-duration: 3s;
+  animation-name: uno;
+  animation-iteration-count: 4;
+  animation-direction: alternate;
+  animation-delay: 2s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: both;
+}
+
+@keyframes uno {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+#Dos {
+  animation-duration: 5s;
+  animation-name: dos;
+  animation-iteration-count: 2;
+  animation-direction: alternate-reverse;
+  animation-delay: 14s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: backwards;
+}
+
+@keyframes dos {
+ from{
+     margin-top: 100%;
+     width: 300%; 
+ }
+  
+  to{
+     margin-top: 0%;
+     width: 100%; 
+  }
+}
+
+/*animation-name, animation-duration, animation-timing-function, animation-delay, animation-iteration-count, animation-direction y animation-fill-mode */
+#Tres {
+  animation: tres 10s ease-in-out 30s infinite reverse forwards;
+}
+
+@keyframes tres {
+ from{
+     margin-bottom: 100%;
+     width: 300%; 
+ }
+  
+  to{
+     margin-bottom: 0%;
+     width: 100%; 
+  }
+}
