@@ -1,0 +1,47 @@
+ p{
+     color: green;
+     font-family: Arial; 
+     font-size: 2em;                     
+}
+h3{
+    color: aqua;
+}
+
+*{margin:0; padding:0; font-family: verdana, sans-serif;}
+div{ border: 1px solid; float: left;
+height: 140px; width: 140px;
+margin:10px 15px;
+font-size: 20px; font-weight:bold; text-align:center;
+padding-top: 30px; word-wrap:break-word;
+}
+h2{margin: 55px 0 -30px 65px; font-size:22px; white-space:pre;
+text-align:center; width: 400px;}
+
+#transicion{
+  margin:30pt auto;
+    width:200pt;
+    height:200pt;
+    background-color: yellow;
+    color:#4FDE11;
+    line-height:90pt;
+    font-size:35px;
+    text-align:center;
+}
+
+#transicion:hover{
+    width:40pt;
+    height:50pt;
+    border-radius:70%;
+    background-color: red;
+    cursor:pointer;
+    padding:40px;
+    box-shadow:0px 2px 20px #000;
+    color:#EEBB0F;
+    
+    -webkit-transition: width 2ms ease,height 1.5ms ease,background-color 2.5ms ease-out, border-radius 3s ease-in-out, padding 1s ease 2.5ms, box-shadow 1.5ms ease 2s, color 5ms linear;
+    -moz-transition: width 2s ease,height 1.5s ease,background-color 2.5s ease-out, border-radius 3s ease-in-out, padding 1s ease 2.5s, box-shadow 1.5s ease 2s, color 5s linear;
+    -o-transition: width 2s ease,height 1.5s ease,background-color 2.5s ease-out, border-radius 3s ease-in-out, padding 1s ease 2.5s, box-shadow 1.5s ease 2s, color 5s linear;
+    -ms-transition: width 2s ease,height 1.5s ease,background-color 2.5s ease-out, border-radius 3s ease-in-out, padding 1s ease 2.5s, box-shadow 1.5s ease 2s, color 5s linear;    
+    transition: width 2s ease,height 1.5s ease,background-color 2.5s ease-out, border-radius 3s ease-in-out, padding 1s ease 2.5s, box-shadow 1.5s ease 2s, color 5s linear;
+
+}
