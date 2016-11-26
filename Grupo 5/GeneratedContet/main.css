@@ -1,0 +1,15 @@
+body{
+	counter-reset: numerocapitulo ;
+}
+
+h1[data-type = "capitulo"]{
+counter-increment: numerocapitulo;
+}
+
+h1:before{
+content: "Capitulo " counter(numerocapitulo)  " : ";
+}
+
+h1:after{
+	content:  " De la sagrada Biblia";
+};

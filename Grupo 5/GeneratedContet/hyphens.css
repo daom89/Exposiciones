@@ -1,0 +1,13 @@
+article {
+  max-width: 500px;
+  margin: 0 auto;
+  width: 100%;
+  text-align: justify;
+}
+
+article p {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: none;
+}

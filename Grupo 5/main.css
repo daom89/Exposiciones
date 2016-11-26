@@ -1,0 +1,23 @@
+body{
+	counter-reset: numerocapitulo ;
+}
+
+h1[data-type = "capitulo"]{
+counter-increment: numerocapitulo;
+}
+
+h1:before{
+content: "Capitulo " counter(numerocapitulo)  " : ";
+}
+
+h1:after{
+	content:  " De la sagrada Biblia";
+};
+
+p{
+	bookmark-label: "Hola soy German";
+	bookmark-level: 3;
+	bookmark-target: url(www.sena.edu.co);
+	crop: rect(0px, 115px, 85px, 30px);
+	display: inline;
+}
